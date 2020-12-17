@@ -1,12 +1,17 @@
 @media (screen (max-width: 767px) {
 
+#section1 {
+  float:right
+}
 
 #a {
   margin-top: 30px;
   height: 100 px;
   line-height: 100px;
-  text-align: center;
+  /* text-align: center; */
   width: 100%;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 #b {
@@ -14,7 +19,7 @@
   width: 200px;
   height: 600px;
   line-height: 600px;
-  text-align: center;
+  /* text-align: center; */
   float: left;
 }
 
@@ -27,7 +32,7 @@
 
 
 #c {
-  float: left;
+  float: right;
 }
 
 #e {
