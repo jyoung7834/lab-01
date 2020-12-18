@@ -1,13 +1,13 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
-.wrapper {
+/* .wrapper { */
   /* display: flex; */
 }
 
 
-body {
+/* body { */
   /* display: grid; */
   /* grid-template-columns:960px;
   grid-template-rows: 100px auto; */
@@ -15,86 +15,86 @@ body {
                         "B C D "
                         "B E F G H "
                         "B I" */
-  max-width:960px;
+  /* max-width:960px;
   min-width: 960px;
   /* margin: auto; */
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace;
   text-align: center;
   color: rgba(28, 28, 28, 0.793)
-}
+} */
 
-#a {
+/* #a {
   background-color: #474853;
   width: 960px;
-  height: 100px;
+  height: 100px; */ */
   /* grid-area: A; */
-  justify-content: center;
+  /* justify-content: center; */
   /* align-items: center; */
   
 }
 
-#b {
+/* #b {
   background-color: #844D36;
   width: 200px;
-  height: 600px;
+  height: 600px; */
   /* grid-area: B; */
-  float: left;
+  /* float: left; */
 }
 
-#c {
+/* #c {
   background-color: #86b3D1;
   width: 380px;
-  height: 200px;
+  height: 200px; */
   /* grid-area: C; */
-  float: right;
+  /* float: right; */
 
 }
 
-#d {
+/* #d {
   background-color: #AAA0A0;
   width: 380px;
-  height: 200px;
+  height: 200px; */
   /* grid-area: D; */
-  float: right
+  /* float: right */
 }
 
-#e {
+/* #e {
   background-color: #8E8268;
   width: 190px;
-  height: 250px;
+  height: 250px; */
   /* grid-area: E; */
-  float: right;
+  /* float: right; */
 
 
 }
 
-#f {
+/* #f {
   background-color: #AAA0a0;
   width: 190px;
-  height: 250px;
+  height: 250px; */
   /* grid-area: F; */
-  float: right;
+  /* float: right; */
   }
 
-#g {
+/* #g {
   background-color: #86b3d1;
   width: 190px;
-  height: 250px;
+  height: 250px; */
   /* grid-area: G; */
-  float:right;
+  /* float:right; */
 }
-
+/* 
 #h {
   background-color: #8E8268;
   width: 190px;
-  height: 250px;
+  height: 250px; */
   /* grid-area: H; */
-  float:right;
+  /* float:right;
 }
  #i {
    background-color: #844D36;
    width: 760px;
-   height: 150px;
+   height: 150px; */
    /* grid-area: I; */
-   float:right
+   /* float:right */
  }
